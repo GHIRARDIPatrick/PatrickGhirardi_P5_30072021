@@ -1,16 +1,18 @@
 {
-  "name": "orinoco-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.0.2",
-    "express": "^4.16.4",
-    "uuid": "^3.3.2"
-  }
+    "name": "orinoco-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "sass": "sass --watch ./css/main.scss:./css/style.css",
+        "prefix": "postcss ./css/*.css --use autoprefixer -d ./prefixed/"
+
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.0.2",
+        "express": "^4.16.4",
+        "uuid": "^3.3.2"
+    }
 }
