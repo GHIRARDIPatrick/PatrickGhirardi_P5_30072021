@@ -1,3 +1,28 @@
+body {
+  background: linear-gradient(0.25turn, #c97b57, #f3e9f1, #8f5bfa);
+}
 
+.container {
+  margin-top: 15px;
+}
+
+.navbar-brand {
+  margin-top: -50px;
+}
+@media screen and (min-width: 992px) {
+  .navbar-brand {
+    margin-top: 0px;
+  }
+}
+.navbar-brand img {
+  width: 10%;
+  float: left;
+  margin-top: -5px;
+}
+@media screen and (min-width: 992px) {
+  .navbar-brand img {
+    width: 10%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -6,7 +6,6 @@
     "scripts": {
         "sass": "sass --watch ./css/main.scss:./css/style.css",
         "prefix": "postcss ./css/*.css --use autoprefixer -d ./prefixed/"
-
     },
     "author": "",
     "license": "ISC",
@@ -14,5 +13,9 @@
         "bootstrap": "^5.0.2",
         "express": "^4.16.4",
         "uuid": "^3.3.2"
+    },
+    "devDependencies": {
+        "webpack": "^5.50.0",
+        "webpack-cli": "^4.7.2"
     }
 }

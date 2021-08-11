@@ -1,0 +1,29 @@
+// VARIABLE //
+$couleur-fond-de-page:#f3e9f1;
+$couleur1:#c97b57;
+$couleur2:#8f5bfa;
+// BASE //
+body {
+    background: linear-gradient(0.25turn, $couleur1, $couleur-fond-de-page, $couleur2);
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.navbar-brand {
+    margin-top: -50px;
+    @media screen and (min-width: 992px) {
+        margin-top: 0px;
+    }
+    img {
+        width: 10%;
+        float: left;
+        margin-top: -5px;
+        @media screen and (min-width: 992px) {
+            width: 10%;
+        }
+    }
+}
+
+// BASE TEXTE //
