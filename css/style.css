@@ -61,4 +61,46 @@ footer img {
   }
 }
 
+section {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+@media screen and (min-width: 992px) {
+  section {
+    width: 90%;
+  }
+}
+section h1 {
+  width: 100%;
+}
+
+article {
+  background-color: white;
+  border: #f3e9f1 2px solid;
+  border-radius: 10%;
+  color: #9d9d9d;
+  max-width: 90%;
+  max-height: auto;
+  margin: 2% 5%;
+}
+@media screen and (min-width: 992px) {
+  article {
+    margin: auto;
+  }
+}
+article img {
+  margin-top: 3%;
+  width: 95%;
+  max-height: 90%;
+}
+article h2 {
+  padding-left: 5%;
+}
+article p {
+  padding-left: 5%;
+}
+
 /*# sourceMappingURL=style.css.map */
