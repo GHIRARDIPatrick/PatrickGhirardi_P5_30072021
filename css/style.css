@@ -102,4 +102,42 @@ article p {
   padding-left: 5%;
 }
 
+.produit {
+  margin-bottom: 3%;
+}
+.produit h1 {
+  text-align: center;
+  margin-bottom: 4%;
+}
+.produit img {
+  width: 100%;
+}
+.produit-fenetre {
+  margin: 3% 2%;
+  background-color: white;
+  border: #f3e9f1 2px solid;
+  border-radius: 30%;
+  color: #9d9d9d;
+  height: 80px;
+  padding: 1% 5%;
+  font-weight: bold;
+}
+.produit-fenetre--002 {
+  text-align: center;
+  padding-top: 25px;
+}
+.produit-fenetre--003 {
+  height: 140px;
+  text-align: center;
+  padding-top: 25px;
+}
+.produit-fenetre input {
+  width: 50px;
+  text-align: center;
+}
+.produit-fenetre .bouton_commande {
+  margin-top: 5px;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
