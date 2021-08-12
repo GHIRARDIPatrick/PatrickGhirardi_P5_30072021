@@ -52,26 +52,102 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Panier</a></li>
+                    <li><a href="panier.html"><span class="glyphicon glyphicon-shopping-cart"></span> Panier</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container"></div>
+    <div class="container-fluid panier">
+        <h1>PANIER</h1>
+        <section class="col-12 col-lg-6">
+            <h2>Liste de votre commande</h2>
 
-    <footer class="container-fluid row">
-        <div class="col col-lg-3">
-            <a><img src="images/RS-Groupe.png" alt="Logo de ORINOCO Group"></a>
+            <!-- Article 1 -->
+            <article class="panier-fenetre">
+                <div class=" col-lg-3">
+                    <img src="images/teddy_1.jpg" alt="Photo peluche d'ourson avec un poil marron très dense et doux">
+                </div>
+
+                <div class=" col-lg-5 ">
+                    <p>Produit : Teddy 1</p>
+                    <p>Couleur : </p>
+                    <div class="panier-fenetre--003">
+                        <button class="btn btn-default" type="button" aria-label="Moins en Quantité"> - </button>
+                        <input type="text" value="1" aria-label="Quantité en commande" disabled required></input>
+                        <button class="btn btn-default" type="button" aria-label="Plus en Quantité"> + </button><br>
+                    </div>
+                </div>
+
+                <div class=" col-lg-4 panier-fenetre--002">
+                    <p>Prix Unitaire :
+                        <input type="text" value="200.00" aria-label="Prix Unitaire" disabled required> euros</input>
+                    </p>
+                    <p>Prix Total :
+                        <input type="text" value="200.00" aria-label="Prix Total" disabled required> euros</input>
+                    </p>
+                </div>
+            </article>
+
+        </section>
+
+
+        <section class="col-12 col-lg-6 panier-contact">
+            <h2>Vos coordonnées</h2>
+            <form class="form-horizontal" action="/action_page.php">
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Prénom :</label>
+                    <div class="col-lg-10">
+                        <input class="form-control-static" type="text" required></p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Nom :</label>
+                    <div class="col-lg-10">
+                        <input class="form-control-static" type="text" required></p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Adresse :</label>
+                    <div class="col-lg-10">
+                        <input class="form-control-static" type="text" required></p>
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <label class="control-label col-sm-2 ">Ville :</label>
+                    <div class="col-lg-10">
+                        <input class="form-control-static" type="text" required></p>
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <label class="control-label col-sm-2 ">Email :</label>
+                    <div class="col-lg-10">
+                        <input class="form-control-static" type="email" required></p>
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <div class="col-sm-offset-2 col-sm-10 ">
+                        <button type="submit " class="btn btn-default ">Validation de votre commande</button>
+                    </div>
+                </div>
+            </form>
+
+        </section>
+    </div>
+
+
+    <footer class="container-fluid row ">
+        <div class="col col-lg-3 ">
+            <a><img src="images/RS-Groupe.png " alt="Logo de ORINOCO Group "></a>
         </div>
-        <div class="col col-lg-5 footer-barre-separation">
+        <div class="col col-lg-5 footer-barre-separation ">
             <p class="h5 ">ORINOURS, une filiale d'ORINOCO Group</p>
-            <p class="h5 footer-tabulation">RCS Paris B152 152</p>
+            <p class="h5 footer-tabulation ">RCS Paris B152 152</p>
         </div>
-        <div class="col col-lg-4">
-            <p class="h5">ORIMEUBLE : Mobiliers en bois</p>
-            <p class="h5">ORIPHOTO : Appareils photo</p>
+        <div class="col col-lg-4 ">
+            <p class="h5 ">ORIMEUBLE : Mobiliers en bois</p>
+            <p class="h5 ">ORIPHOTO : Appareils photo</p>
         </div>
     </footer>
 
@@ -80,9 +156,9 @@
 
     <!-- LIENs BOOTSTRAP POUR JS JQUERY -- INTERDIT POUR PROJET -->
     <!--    jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
 
 </body>

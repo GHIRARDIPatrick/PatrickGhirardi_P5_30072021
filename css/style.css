@@ -61,7 +61,7 @@ footer img {
   }
 }
 
-section {
+.liste-produit section {
   text-align: center;
   width: 100%;
   display: flex;
@@ -69,15 +69,14 @@ section {
   align-content: center;
 }
 @media screen and (min-width: 992px) {
-  section {
+  .liste-produit section {
     width: 90%;
   }
 }
-section h1 {
+.liste-produit section h1 {
   width: 100%;
 }
-
-article {
+.liste-produit article {
   background-color: white;
   border: #f3e9f1 2px solid;
   border-radius: 10%;
@@ -87,18 +86,19 @@ article {
   margin: 2% 5%;
 }
 @media screen and (min-width: 992px) {
-  article {
+  .liste-produit article {
     margin: auto;
   }
 }
-article img {
+.liste-produit article img {
   margin-top: 3%;
   width: 95%;
-}
-article h2 {
   padding-left: 5%;
 }
-article p {
+.liste-produit article h2 {
+  padding-left: 5%;
+}
+.liste-produit article p {
   padding-left: 5%;
 }
 
@@ -138,6 +138,43 @@ article p {
 .produit-fenetre .bouton_commande {
   margin-top: 5px;
   padding: 10px;
+}
+
+.panier {
+  margin-bottom: 3%;
+}
+.panier h1 {
+  text-align: center;
+  margin-bottom: 4%;
+}
+.panier-fenetre {
+  height: 123px;
+  padding-top: 10px;
+  border: #9d9d9d 2px solid;
+  margin-top: 1%;
+}
+.panier-fenetre--002 {
+  padding-top: 15px;
+}
+.panier-fenetre--003 {
+  text-align: center;
+  height: 140px;
+}
+.panier-fenetre img {
+  width: 100%;
+}
+.panier-fenetre input {
+  width: 50px;
+  text-align: center;
+}
+
+.panier-contact input {
+  height: 60%;
+  width: 80%;
+}
+.panier-contact button {
+  width: 80%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
