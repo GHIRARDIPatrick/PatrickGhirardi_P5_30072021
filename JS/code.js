@@ -1,6 +1,7 @@
 // PRODUIT - Quantité & Commande
 const produitQuantite = document.getElementById("produit-quantite");
 let valeur = 0;
+alert("Ca fonctionne");
 
 document.getElementById("produit-moins").addEventListener("click", function() {
     if (produitQuantite.value < 1) {
