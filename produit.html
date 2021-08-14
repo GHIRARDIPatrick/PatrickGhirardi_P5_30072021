@@ -28,6 +28,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
+    <!-- JAVASCRIPT - MON CODE -->
+    <script type="text/javascript" src="js/code.js"></script>
+
     <!-- POLICE -->
     <!-- <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="./css/et-line.css"> -->
@@ -75,11 +78,10 @@
             <p class="produit-fenetre produit-fenetre--002">Prix : 200 euros</p>
 
             <div class="produit-fenetre produit-fenetre--003">
-                <button class="btn btn-default" type="button" aria-label="Moins en Quantité"> - </button>
-                <input type="text" value="1" aria-label="Quantité en commande" disabled required></input>
-                <button class="btn btn-default" type="button" aria-label="Plus en Quantité"> + </button><br>
-                <button class="bouton_commande" type="submit" aria-label="Passez commande de ce produit">Je commande</button>
-                <a href="panier.html"><button type="menu" class="alert">?</button></a>
+                <button id="produit-moins" class="btn btn-default" type="button" aria-label="Moins en Quantité"> - </button>
+                <input id="produit-quantite" type="text" value="1" aria-label="Quantité en commande" disabled required></input>
+                <button id="produit-plus" class="btn btn-default" type="button" aria-label="Plus en Quantité"> + </button><br>
+                <button id="produit-commande" class="bouton_commande" type="submit" aria-label="Passez commande de ce produit">Je commande</button>
             </div>
         </div>
     </div>
