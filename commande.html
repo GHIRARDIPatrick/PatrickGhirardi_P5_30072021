@@ -20,11 +20,16 @@
     <!-- SCSS / BOOTSTRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/scss/bootstrap.scss">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <!-- JAVASCRIPT - MON CODE -->
+    <script src="js/code.js"></script>
 
 
     <!-- POLICE -->
@@ -38,7 +43,12 @@
 </head>
 
 <body>
+    <!-- SCRIPT BUDDLE -->
+    <script src="./dist/polyfill.bundle.js"></script>
+    <script src="./dist/app.bundle.js"></script>
 
+
+    <!-- ENTETE & BARRE DE NAVIGATION -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -52,37 +62,30 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Panier</a></li>
+                    <li><a href="panier.html"><span class="glyphicon glyphicon-shopping-cart"></span> Panier</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container"></div>
+    <div class="container-fluid commande">
+        <h1>COMMANDE</h1>
+    </div>
 
-    <footer class="container-fluid row">
-        <div class="col col-lg-3">
-            <a><img src="images/RS-Groupe.png" alt="Logo de ORINOCO Group"></a>
+
+    <footer class="container-fluid row ">
+        <div class="col col-lg-3 ">
+            <a><img src="images/RS-Groupe.png " alt="Logo de ORINOCO Group "></a>
         </div>
-        <div class="col col-lg-5 footer-barre-separation">
+        <div class="col col-lg-5 footer-barre-separation ">
             <p class="h5 ">ORINOURS, une filiale d'ORINOCO Group</p>
-            <p class="h5 footer-tabulation">RCS Paris B152 152</p>
+            <p class="h5 footer-tabulation ">RCS Paris B152 152</p>
         </div>
-        <div class="col col-lg-4">
-            <p class="h5">ORIMEUBLE : Mobiliers en bois</p>
-            <p class="h5">ORIPHOTO : Appareils photo</p>
+        <div class="col col-lg-4 ">
+            <p class="h5 ">ORIMEUBLE : Mobiliers en bois</p>
+            <p class="h5 ">ORIPHOTO : Appareils photo</p>
         </div>
     </footer>
-
-
-
-
-    <!-- LIENs BOOTSTRAP POUR JS JQUERY -- INTERDIT POUR PROJET -->
-    <!--    jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>

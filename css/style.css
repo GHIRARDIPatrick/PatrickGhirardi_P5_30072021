@@ -177,6 +177,12 @@ footer img {
   width: 50px;
   text-align: center;
 }
+.panier-fenetre input:valid {
+  border: green 2px solid;
+}
+.panier-fenetre input:invalid {
+  border: red 2px solid;
+}
 
 .panier-contact input {
   height: 60%;

@@ -30,6 +30,12 @@
             input {
                 width: 50px;
                 text-align: center;
+                &:valid {
+                    border: green 2px solid;
+                }
+                &:invalid {
+                    border: red 2px solid;
+                }
             }
         }
     }

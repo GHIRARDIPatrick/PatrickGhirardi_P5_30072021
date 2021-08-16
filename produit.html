@@ -43,7 +43,12 @@
 </head>
 
 <body>
+    <!-- SCRIPT BUDDLE -->
+    <script src="./dist/polyfill.bundle.js"></script>
+    <script src="./dist/app.bundle.js"></script>
 
+
+    <!-- ENTETE & BARRE DE NAVIGATION -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -77,6 +82,13 @@
             <p class="produit-fenetre">Choix Couleur : </p>
 
             <p class="produit-fenetre produit-fenetre--002">Prix : 200 euros</p>
+
+            <div class="form-group hidden">
+                <label for="produit-ref" class="control-label col-sm-2">Référence :</label>
+                <div class="col-lg-10">
+                    <input class="form-control-static" type="text" id="produit-ref" name="produit-ref" required></p>
+                </div>
+            </div>
 
             <div class="produit-fenetre produit-fenetre--003">
                 <button id="produit-moins" class="btn btn-default" type="button" aria-label="Moins en Quantité"> - </button>
